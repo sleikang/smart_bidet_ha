@@ -1,0 +1,26 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "confirm": {
+        "title": "Smart Bidet discovered",
+        "description": "Add {name}? A persistent Bluetooth connection will be kept."
+      },
+      "user": {
+        "title": "Add Smart Bidet manually",
+        "description": "Enter the Bluetooth MAC address (advertised name: Intelligence bidet).",
+        "data": {
+          "address": "Bluetooth address"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "Address must look like AA:BB:CC:DD:EE:FF"
+    },
+    "abort": {
+      "already_configured": "Device is already configured",
+      "no_devices_found": "No devices found",
+      "cannot_connect": "Failed to connect"
+    }
+  }
+}

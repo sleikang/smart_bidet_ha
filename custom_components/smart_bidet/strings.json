@@ -1,0 +1,26 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "confirm": {
+        "title": "发现智慧云马桶",
+        "description": "是否添加 {name}？添加后会保持一条蓝牙连接。"
+      },
+      "user": {
+        "title": "手动添加智慧云马桶",
+        "description": "填写马桶的蓝牙 MAC 地址（广播名：Intelligence bidet）。",
+        "data": {
+          "address": "蓝牙地址"
+        }
+      }
+    },
+    "error": {
+      "invalid_address": "地址格式应为 AA:BB:CC:DD:EE:FF"
+    },
+    "abort": {
+      "already_configured": "该设备已配置",
+      "no_devices_found": "未发现设备",
+      "cannot_connect": "连接失败"
+    }
+  }
+}
